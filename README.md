@@ -73,7 +73,9 @@ GAIA'S SKY IN COLOUR](https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-
 
 <!-- ## Install -->
 
-<!-- ## Contribution -->
+## Contribution
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Licence
 This software is released under the MIT License, see [LICENSE](./LICENSE).
