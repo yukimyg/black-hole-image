@@ -64,7 +64,6 @@ def runge_kutta(r0, x0, dx, b, rs):
 )
 def ray_tracing(H1, W1, r0, dx, x0, info, rs):
     image0 = np.zeros((H1, W1, 2))
-    al = 0.0
     for i in numba.prange(H1):
         for j in numba.prange(W1):
             a = runge_kutta(r0, x0, dx, info[i, j, 0], rs)
@@ -154,7 +153,3 @@ def main(H, W, dx, x0, rs, dis):
 
     np.save("./internal/angles_data/fai.npy", fai)
     np.save("./internal/angles_data/theta.npy", theta)
-
-
-if __name__ == "__main__":
-    main()

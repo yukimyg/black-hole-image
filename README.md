@@ -41,6 +41,7 @@ comming soon...
 
 - [Python3](https://wiki.python.org/moin/BeginnersGuide/Download)
 - [NumPy](https://numpy.org/install/)
+- [SciPy](https://scipy.org/download/)
 - [Numba](https://numba.readthedocs.io/en/stable/user/installing.html)
 - [Open CV](https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html)
 
@@ -66,17 +67,17 @@ GAIA'S SKY IN COLOUR](https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-
    ```py
    from internal.datas import Const as const
    from internal.datas import Image as image
-
-
+   
+   
    mass_bh = 100 * const.mass_sun
-
+   
    # rs : Schwarzschild radius
-   rs = 2 * mass_bh * const.newtonian_g / const.c**2
-   distance = 3 * rs
-
-   image_width = image.fhd.width
-   image_height = image.fhd.height
-
+   rs = 2 * mass_bh * const.newtonian_g / const.c ** 2
+   distance = 5 * rs
+   
+   image_width = image.uhd.width
+   image_height = image.uhd.height
+   
    input_name = "input.png"
    output_name = "output.png"
    ```
