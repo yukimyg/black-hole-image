@@ -154,7 +154,3 @@ def main(H, W, dx, x0, rs, dis):
 
     np.save("./internal/angles_data/fai.npy", fai)
     np.save("./internal/angles_data/theta.npy", theta)
-
-
-if __name__ == "__main__":
-    main()

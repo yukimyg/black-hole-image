@@ -38,7 +38,3 @@ def main(H, W, input_name, output_name):
         im1[:, :, i] = np.where(np.abs(theta) >= 100, zeros, im1[:, :, i])
 
     cv2.imwrite(f"outputs/{output_name}", im1)
-
-
-if __name__ == "__main__":
-    main()
