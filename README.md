@@ -41,7 +41,7 @@ comming soon...
 
 - [Python3](https://wiki.python.org/moin/BeginnersGuide/Download)
 - [NumPy](https://numpy.org/install/)
-- [Scipy](https://scipy.org/download/)
+- [SciPy](https://scipy.org/download/)
 - [Numba](https://numba.readthedocs.io/en/stable/user/installing.html)
 - [Open CV](https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html)
 
