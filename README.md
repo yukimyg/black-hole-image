@@ -7,23 +7,31 @@
 Note: This project is not yet ready for production.
 
 ## Overview
-You can make gravitational lensing for any back ground image. 
+
+You can make gravitational lensing for any back ground image.
+
 ## Description
+
 ### Feature
+
 Make images that is view of static observer near the Black Hole.  
 Able to set the following values.
+
 - Mass of Black Hole
 - Distance between the Observer and event horizon measured by Observer at the infinite point.
 
  Then, calculate geodesic raytracing in Schwarzschild time-space every pixels. For it, used automatic parallelization with `@jit` of Numba.
 
 ### Future feature
+
 The following are not yet implemented.
+
 - redshift and blueshift (doppler, gravitational)
 - Set gass and dust around Black Hole. (Assume the existence of an accretion disk.)
 - Kerr time-space
 
 ### Physical Explanation
+
 comming soon...
 <!-- ## Demo -->
 
@@ -36,8 +44,8 @@ comming soon...
 - [Numba](https://numba.readthedocs.io/en/stable/user/installing.html)
 - [Open CV](https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html)
 
-
 ## Useage
+
 1. Choose a image back ground of gravitational lensing.
    - For example, [
 GAIA'S SKY IN COLOUR](https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-equirectangular-projection) ([ESA](https://www.esa.int/))
@@ -50,9 +58,11 @@ GAIA'S SKY IN COLOUR](https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-
      - `image_height` : Height of output image.(pixels)
      - `input_name` : Name of input image.
      - `output_name` : Name of output image.
-   
+
    Then, you can use several included connstants.  Check [reference](./docs/value_refarence.md).
-   #### Example
+
+   Example
+
    ```py
    from internal.datas import Const as const
    from internal.datas import Image as image
@@ -70,10 +80,13 @@ GAIA'S SKY IN COLOUR](https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-
    input_name = "input.png"
    output_name = "output.png"
    ```
+
 4. Run the following command.
+
    ```sh
    python main.py
    ```
+
 5. Result image are outputted to [`./outputs`](./outputs/)
 
 <!-- ## Install -->
@@ -83,6 +96,7 @@ GAIA'S SKY IN COLOUR](https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Licence
+
 This software is released under the MIT License, see [LICENSE](./LICENSE).
 
 ## Author
