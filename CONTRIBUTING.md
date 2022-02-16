@@ -4,7 +4,7 @@ I'm really glad you're reading this, because your help is very valuable to this 
 
 ## Issues
 
-We are accepting the following Issue.
+I am accepting the following Issue.
 
 - Feature request
   - Ideas are a valuable source of contributions others can make
