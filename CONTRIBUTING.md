@@ -72,5 +72,5 @@ Please refer to [The Naming Convention Project](https://namingconvention.org) an
 
 ## Acknowledgment
 
-This is inspired by
-[a-good-readme-template by Ms. Thompson](https://github.com/PurpleBooth/a-good-readme-template).
+This document is inspired by
+[a-good-readme-template](https://github.com/PurpleBooth/a-good-readme-template) by [Ms. Thompson](https://github.com/PurpleBooth).
