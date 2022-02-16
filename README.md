@@ -1,5 +1,4 @@
-# <div style="text-align: center;">Black Hole Image</div>
- [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+Note: This project is not yet ready for production.
 
 ## Overview
 You can make gravitational lensing for any back ground image. 
