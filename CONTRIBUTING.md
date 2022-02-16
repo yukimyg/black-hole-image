@@ -19,7 +19,8 @@ Thank you for creating them.
 
 ## Pull Requests
 
-Pull requests are, a great way to get your ideas into this repository.
+Pull requests are, a great way to get your ideas into this repository.  
+Please use **[GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)** for this project, because it's a small group.
 
 When deciding if I merge in a pull request I look at the following
 things:
@@ -59,11 +60,15 @@ remove things that do not respect it.
 
 ## Naming convention
 
-Please see [The Naming Convention Project](https://namingconvention.org) for details.  
+Please refer to [The Naming Convention Project](https://namingconvention.org) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).  
 
-### memo
+### note
 
-- If you are not sure about the commit type, write "chore" for now.
+- prefix of branch name
+  - feature, refactor, bugfix, hotfix, etc.
+- prefix of commit message
+  - feat, fix, docs, style, refactor, perf, test, chore, etc.
+  - If you are not sure about the commit type, write "chore" for now.
 
 ## Acknowledgment
 
